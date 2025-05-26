@@ -11,7 +11,7 @@
     <button class="back-button">⬅ BACK</button>
     <div class="header-title">
       <span>Climate</span>
-      <img src="climate.png" alt="climate" class="climate">
+     <img src="climate.png" alt="Climate Icon" class="icon">
       <span>Change</span>
     </div>
   </header>
