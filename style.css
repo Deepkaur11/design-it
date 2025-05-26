@@ -100,21 +100,26 @@ a.card {
 
 footer {
   background-color: #4a90e2;
-  color: white;
+  color: black; /* default for text like "Phone Number:" */
   text-align: center;
   padding: 15px 10px;
   font-size: 0.95em;
 }
-footer a {
+
+footer .label {
   color: black;
-  text-decoration: white;
   font-weight: bold;
 }
 
-footer a:hover {
-  text-decoration: underline;
+footer .contact-info {
+  color: white;              /* phone number & email appear white */
+  text-decoration: none;
+  font-weight: bold;
 }
 
+footer .contact-info:hover {
+  text-decoration: underline;
+}
 @media (max-width: 600px) {
   .header-title {
     font-size: 1.2em;
