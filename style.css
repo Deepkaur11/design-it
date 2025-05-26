@@ -100,10 +100,13 @@ a.card {
 
 footer {
   background-color: #4a90e2;
-  color: black; /* default for text like "Phone Number:" */
   text-align: center;
   padding: 15px 10px;
   font-size: 0.95em;
+}
+
+footer p {
+  color: black; /* this ensures the p tag stays black */
 }
 
 footer .label {
@@ -112,7 +115,7 @@ footer .label {
 }
 
 footer .contact-info {
-  color: white;              /* phone number & email appear white */
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
