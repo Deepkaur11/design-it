@@ -11,7 +11,7 @@
     <button class="back-button">⬅ BACK</button>
     <div class="header-title">
       <span>Climate</span>
-      <img src="icon.png" alt="Icon" class="icon">
+      <img src="climate.png" alt="climate" class="climate">
       <span>Change</span>
     </div>
   </header>
@@ -28,11 +28,11 @@
         <p>How we can help</p>
       </div>
       <div class="card">
-        <img src="centrelink.png" alt="Centrelink logo">
+        <img src="centrelink.png" alt="centrelink logo">
         <p>Disaster Claim</p>
       </div>
       <div class="card">
-        <img src="contact.png" alt="Contact icon">
+        <img src="contact.png" alt="contact icon">
         <p>Contacts</p>
       </div>
     </div>
