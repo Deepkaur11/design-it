@@ -71,6 +71,10 @@ h1 {
   transition: transform 0.3s ease;
   height: 250px;
 }
+a.card {
+  text-decoration: none;
+  color: inherit;
+}
 .card img {
   width: 100%;
   height: auto;
