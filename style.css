@@ -62,15 +62,19 @@ h1 {
   background-color: white;
   color: #333;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 220px; /* Ensures consistent height */
+  transition: transform 0.3s ease;
 }
 
 .card img {
   width: 100%;
-  height: 160px;
+  height: 150px;
   object-fit: cover;
+  display: block;
 }
 
 .card p {
@@ -79,8 +83,11 @@ h1 {
   margin: 0;
   padding: 12px;
   font-weight: bold;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .card:hover {
   transform: scale(1.02);
   cursor: pointer;
