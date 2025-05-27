@@ -5,37 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Steps to Tackle Climate Change</title>
   <link rel="stylesheet" href="style.css" />
- <style>
-  .card {
-    border: 3px solid #4a90e2;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+  <style>
+    .card {
+      border: 3px solid #4a90e2;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
 
-  .card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    background-color: #f4f4f4;
-    padding: 10px;
-  }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
 
-  .card p {
-    background-color: #e6f0fa; /* Light blue background for text */
-    border-top: 3px solid #4a90e2; /* Blue border top to create a "rectangle effect" */
-    color: black;
-    font-weight: bold;
-    padding: 10px;
-    margin: 0;
-    border-radius: 0 0 10px 10px; /* Optional: smooth rounded bottom */
-  }
-</style>
+    .card p {
+      background-color: #e6f0fa; /* Light blue background for text */
+      border-top: 3px solid #4a90e2;
+      color: black;
+      font-weight: bold;
+      padding: 10px;
+      margin: 0;
+      border-radius: 0 0 10px 10px;
+    }
 
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+    }
+  </style>
 </head>
 
-<body>
+<body class="steps-page">
   <header>
     <button class="back-button" onclick="history.back()">⬅ BACK</button>
     <div class="header-title">
@@ -53,10 +65,11 @@
         <img src="energy.jpg" alt="Reduce Energy Use" />
         <p>Reduce energy use at home</p>
       </div>
-      <div class="step-card">
-  <img src="pollution.jpg" alt="Reduce Plastic Pollution">
-  <p><strong>Reduce Plastic Pollution</strong><br>Say no to single-use plastics and choose reusable alternatives.</p>
-</div
+
+      <div class="card">
+        <img src="pollution.jpg" alt="Reduce Plastic Pollution" />
+        <p><strong>Reduce Plastic Pollution</strong><br>Say no to single-use plastics and choose reusable alternatives.</p>
+      </div>
 
       <div class="card">
         <img src="recycle.jpg" alt="Recycle and Reuse" />
@@ -81,3 +94,4 @@
   </footer>
 </body>
 </html>
+
