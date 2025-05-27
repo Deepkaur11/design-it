@@ -4,34 +4,42 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>How We Can Help</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" /> 
   <style>
-  .card {
-    border: 3px solid #4a90e2;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+    .card {
+      border: 3px solid #4a90e2;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s;
+    }
 
-  .card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    background-color: #f4f4f4;
-    padding: 10px;
-  }
+    .card:hover {
+      transform: scale(1.03);
+    }
 
-  .card p {
-    background-color: #e6f0fa; /* Light blue background for text */
-    border-top: 3px solid #4a90e2; /* Blue border top to create a "rectangle effect" */
-    color: black;
-    font-weight: bold;
-    padding: 10px;
-    margin: 0;
-    border-radius: 0 0 10px 10px; /* Optional: smooth rounded bottom */
-  }
-</style>  
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    .card p {
+      background-color: #e6f0fa;
+      border-top: 3px solid #4a90e2;
+      color: black;
+      font-weight: bold;
+      padding: 10px;
+      margin: 0;
+      border-radius: 0 0 10px 10px;
+      text-align: center;
+    }
+  </style>  
 </head>
 <body>
   <header>
@@ -46,22 +54,27 @@
   <main>
     <h1>How We Can Help</h1>
     <div class="grid-container">
-      <div class="card">
+      
+      <a class="card" href="https://www.triplezero.gov.au/triple-zero/regional-services" target="_blank">
         <img src="emergency.jpg" alt="Emergency Support" />
         <p>Emergency Resources</p>
-      </div>
-      <div class="card">
+      </a>
+
+      <a class="card" href="https://www.servicesaustralia.gov.au/natural-disaster-support" target="_blank">
         <img src="financial.jpg" alt="Financial Aid" />
         <p>Financial Assistance</p>
-      </div>
-      <div class="card">
+      </a>
+
+      <a class="card" href="https://www.homeaffairs.gov.au/about-us/our-portfolios/emergency-management/resources" target="_blank">
         <img src="health.jpg" alt="Health Support" />
         <p>Health Support</p>
-      </div>
-      <div class="card">
+      </a>
+
+      <a class="card" href="https://www.disasterassist.gov.au/Pages/disaster-recovery-payment.aspx" target="_blank">
         <img src="clean.jpg" alt="Community Cleanup" />
         <p>Community Cleanups</p>
-      </div>
+      </a>
+
     </div>
   </main>
 
